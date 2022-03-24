@@ -1,0 +1,122 @@
+/* Big tablets to similar laptop screens*/
+@media screen and (max-width:1200px) {
+    html,body{
+        font-size: 14px;
+    }
+    .about-para{
+        margin-bottom: 20px;
+    }
+    .work-heading,
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 90px;
+    }
+     
+}
+
+/* smaller tablets to larger tablets*/
+@media screen and (max-width:1023px) {
+    html,body{
+        font-size: 12px;
+    }
+    .row{
+        padding: 0 2%;
+    }
+    .about-box{
+        margin-top: 60px;
+    }
+    .about-box:first-child{
+        padding: 0;
+        padding-left: 5%;
+    }
+    .laptop-img{
+        padding-right: 5%;
+    }
+    .package-box{
+        width: 100%;
+    }
+    .packages-heading{
+        margin-bottom: 25px;
+    }
+    footer{
+        padding: 30px; 
+    }
+    footer p{
+        line-height: 1.3;
+        margin-top: 20px;
+    }
+}
+
+/* Larger phones to smaller tablets*/
+@media screen and (max-width:767px) {
+    html,body{
+        font-size: 9px;
+    }
+    .h-box-text{
+        margin-bottom: 50px;
+    }
+    .about-heading{
+        margin-bottom: 20px;
+    }
+    .work-heading,
+    .testimonial-heading,
+    .packages-heading,
+    .contact-heading{
+        margin-top: 60px;
+    }
+    .work-heading{
+        margin-bottom: 10px;
+    }
+    .work-sub-heading:after{
+        margin: 15px auto 0 auto;
+    }
+    .testimonial-heading{
+        margin-bottom: 10px;
+    }
+}
+
+/* smaller to larger phones*/
+@media screen and (max-width:480px) {
+    .laptop-img{
+        padding:0;
+        margin: 0 auto;
+    }
+    .about-box:last-child{
+        text-align: center;
+    }
+    .about-box:first-child{
+        text-align: center;
+    }
+    .span_1_of_4{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .span_1_of_3{
+        padding: 10% 10%;
+        margin-bottom: 5px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-heading{
+        margin-top: 70px;
+        margin-bottom: 25px;
+    }
+    .contact-label{
+        padding: 0;
+    }
+    .space{
+        padding: 0;
+    }
+    .footer-nav,
+    .social-links{
+        float: none;
+        text-align: center;
+        margin: 10px;
+    }
+    .work-portfolio li{
+        width: 50%;
+    }
+    
+}
